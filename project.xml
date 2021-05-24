@@ -21,10 +21,11 @@
 	
 	<!-- assets -->
 	<icon path="assets/openfl.svg" />
-	<assets path="assets/img/1.jpg" rename="1" />
-	<assets path="assets/img/2.jpg" rename="2" />
-	<assets path="assets/img/3.jpg" rename="3" />
-	<assets path="assets/img/4.jpg" rename="4" />
+	<assets path="assets/img/1.jpg" rename="img1" />
+	<assets path="assets/img/2.jpg" rename="img2" />
+	<assets path="assets/img/3.jpg" rename="img3" />
+	<assets path="assets/img/4.jpg" rename="img4" />
+	<assets path="buttons.xml" rename="buttons.xml" />
 	
 	<!-- optimize output
 	<haxeflag name="-dce full" /> -->

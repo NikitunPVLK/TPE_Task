@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<buttons>
+	<button>
+		<img path="assets/img/1.jpg"/>
+	</button>
+	<button>
+		<img path="assets/img/2.jpg"/>
+	</button>
+	<button>
+		<img path="assets/img/3.jpg"/>
+	</button>
+	<button>
+		<img path="assets/img/4.jpg"/>
+	</button>
+</buttons>
