@@ -1,26 +1,18 @@
 package;
-import feathers.controls.LayoutGroup;
 import feathers.controls.TextArea;
 /**
  * ...
  * @author Pavlo Nikitin
  */
-class TextView extends LayoutGroup {
-	
-	private var textArea:TextArea;
+class TextView extends View {
 
-	public function new(text:String, width:Float, height:Float) {
+	public function new(?textArea:TextArea=null) {
 		super();
 		
-		textArea = new TextArea();
-		textArea.text = text;
-		textArea.width = width;
-		textArea.height = height;
-		textArea.editable = false;
-		textArea.autoHideScrollBars = true;
-		
-		this.addChild(textArea);
-		
+		if (textArea != null) {
+			addChild(textArea);
+		}
 	}
+	
 	
 }

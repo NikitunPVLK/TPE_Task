@@ -18,6 +18,7 @@ class ButtonXmlData {
 		
 		var buttonsElement = new Access(xml.firstElement());
 		var buttonElementsArray = buttonsElement.nodes.button;
+		
 		data = [];
 		for (button in buttonElementsArray){
 			data.push(button);
